@@ -1,6 +1,8 @@
 #!/bin/bash
 
+image="herdr-agent"
+
 set -x
 
-docker volume rm -f pi-agent-sessions
+docker volume rm -f $image-config
 

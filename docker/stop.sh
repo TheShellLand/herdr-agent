@@ -1,7 +1,7 @@
 #!/bin/bash 
 # run agent in docker
 
-image="pi-agent"
+image="herdr-agent"
 
 set -ex
 
