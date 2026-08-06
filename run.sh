@@ -15,6 +15,8 @@ docker run --rm -it \
   --network agents \
   --shm-size=2g \
   -v //var/run/docker.sock:/var/run/docker.sock \
-  -v $image-config:/root/.config/herdr/ \
+  -v $mount:/root/brain \
   $image "$@"
+
+  #-v $image-config:/root/.config/herdr/ \
 
