@@ -19,4 +19,3 @@ docker run --rm -it \
   $image "$@"
 
   #-v $image-config:/root/.config/herdr/ \
-
